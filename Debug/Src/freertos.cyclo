@@ -1,0 +1,4 @@
+../Src/freertos.c:88:6:MX_FREERTOS_Init	1
+../Src/freertos.c:136:6:StartBno085Task	1
+../Src/freertos.c:154:6:StartNmeaTask	1
+../Src/freertos.c:172:6:StartUartTxTask	1

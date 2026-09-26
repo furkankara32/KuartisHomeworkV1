@@ -1,0 +1,3 @@
+../my_drivers/Src/debug_port.c:22:16:RingBufferWrite	4
+../my_drivers/Src/debug_port.c:56:15:DebugSend_DMA	6
+../my_drivers/Src/debug_port.c:110:6:HAL_UART_TxCpltCallback	5
