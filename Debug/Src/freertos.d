@@ -39,7 +39,20 @@ Src/freertos.o: ../Src/freertos.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/app_types.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/timestamp.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/my_drivers/Inc/bno085.h \
+ ../Inc/spi.h ../Inc/main.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/orientation_math.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/nmea.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/telemetry_protocol.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/app_types.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/my_drivers/Inc/debug_port.h \
+ ../Inc/usart.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/performance_monitor.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -82,3 +95,17 @@ Src/freertos.o: ../Src/freertos.c \
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/app_types.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/timestamp.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/my_drivers/Inc/bno085.h:
+../Inc/spi.h:
+../Inc/main.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/orientation_math.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/nmea.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/telemetry_protocol.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/app_types.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/my_drivers/Inc/debug_port.h:
+../Inc/usart.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/performance_monitor.h:

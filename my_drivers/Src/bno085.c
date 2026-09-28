@@ -739,6 +739,8 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
 		bno085_packet_ready = 1U;
 		spi_state = BNO085_SPI_IDLE;
 	}
+
+	BNO085_EventCallbackFromISR();
 }
 void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi)
 {
@@ -755,6 +757,7 @@ void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi)
 		tx_length = 0U;
 
 		spi_state = BNO085_SPI_IDLE;
+		BNO085_EventCallbackFromISR();
 	}
 }
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
@@ -762,5 +765,13 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	if(GPIO_Pin == SPI2_INT_Pin)
 	{
 		bno085_int_flag = 1U;
+		BNO085_EventCallbackFromISR();
 	}
+}
+
+__weak void BNO085_EventCallbackFromISR(void)
+{
+    /* Default implementation.
+     * Application may override this function.
+     */
 }

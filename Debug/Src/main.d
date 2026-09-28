@@ -41,7 +41,8 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../Inc/dma.h ../Inc/main.h ../Inc/spi.h ../Inc/tim.h ../Inc/usart.h \
- ../Inc/gpio.h
+ ../Inc/gpio.h \
+ /home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/timestamp.h
 ../Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Inc/stm32f7xx_hal_conf.h:
@@ -90,3 +91,4 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
 ../Inc/tim.h:
 ../Inc/usart.h:
 ../Inc/gpio.h:
+/home/furkan/Projects/KuartisV1/KuartisHomeworkV1/App/Inc/timestamp.h:

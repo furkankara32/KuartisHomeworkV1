@@ -1,6 +1,7 @@
-../Src/freertos.c:88:6:vApplicationStackOverflowHook	16	static
-../Src/freertos.c:97:6:vApplicationMallocFailedHook	4	static
-../Src/freertos.c:117:6:MX_FREERTOS_Init	8	static
-../Src/freertos.c:165:6:StartBno085Task	16	static
-../Src/freertos.c:183:6:StartNmeaTask	16	static
-../Src/freertos.c:201:6:StartUartTxTask	16	static
+../Src/freertos.c:111:6:vApplicationStackOverflowHook	16	static
+../Src/freertos.c:120:6:vApplicationMallocFailedHook	4	static
+../Src/freertos.c:140:6:MX_FREERTOS_Init	8	static
+../Src/freertos.c:195:6:StartBno085Task	80	static
+../Src/freertos.c:371:6:StartTelemetryTask	328	static
+../Src/freertos.c:542:6:StartUartTxTask	120	static
+../Src/freertos.c:637:6:BNO085_EventCallbackFromISR	16	static,ignoring_inline_asm

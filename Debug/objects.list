@@ -1,3 +1,8 @@
+"./App/Src/nmea.o"
+"./App/Src/orientation_math.o"
+"./App/Src/performance_monitor.o"
+"./App/Src/telemetry_protocol.o"
+"./App/Src/timestamp.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o"

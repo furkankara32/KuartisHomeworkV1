@@ -27,7 +27,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "timestamp.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -102,6 +102,10 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 
+  if (Timestamp_Init() != TIMESTAMP_STATUS_OK)
+  {
+      Error_Handler();
+  }
   /* USER CODE END 2 */
 
   /* Init scheduler */

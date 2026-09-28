@@ -15,5 +15,6 @@
 ../my_drivers/Src/bno085.c:655:6:BNO085_QuaternionToEuler	6
 ../my_drivers/Src/bno085.c:696:17:BNO085_StartCalibration	2
 ../my_drivers/Src/bno085.c:723:6:HAL_SPI_TxRxCpltCallback	4
-../my_drivers/Src/bno085.c:743:6:HAL_SPI_TxCpltCallback	3
-../my_drivers/Src/bno085.c:760:6:HAL_GPIO_EXTI_Callback	2
+../my_drivers/Src/bno085.c:745:6:HAL_SPI_TxCpltCallback	3
+../my_drivers/Src/bno085.c:763:6:HAL_GPIO_EXTI_Callback	2
+../my_drivers/Src/bno085.c:772:13:BNO085_EventCallbackFromISR	1

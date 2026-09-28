@@ -13,7 +13,7 @@
 #include <stdint.h>
 
 
-#define BNO085_ROTATION_VECTOR_INTERVAL_US 			2500U // 2500us = 400 Hz
+#define BNO085_ROTATION_VECTOR_INTERVAL_US 			10000U // 10Hz
 
 #define BNO085_SHTP_HEADER_SIZE 					4U
 
@@ -77,4 +77,5 @@ BNO085_Status_t BNO085_SaveCalibration(void);
 
 BNO085_Status_t BNO085_RequestProductID(void);
 
+void BNO085_EventCallbackFromISR(void);
 #endif /* INC_BNO085_H_ */
